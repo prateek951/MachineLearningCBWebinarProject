@@ -34,3 +34,6 @@ from math import sqrt as sq
 import numpy as np
 
 # Creating arrays in numpy
+
+arr = np.array([1,2,34])
+print(type(arr))
