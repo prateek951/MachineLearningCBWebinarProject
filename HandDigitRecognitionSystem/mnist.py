@@ -24,9 +24,11 @@ print(X_train.shape)
 plt.figure(0)
 idx = 104
 print(y_train[idx])     #Print the label at the random index 1204
+
 # X_train is of the form 784*1 so we want to reshape it to 28*28 and map it into grayscale
 plt.imshow(X_train[idx].reshape((28,28)),cmap='gray')
 plt.show()
+
 
 def distance(x1,x2):
     # Here compute the euclidean distance between the two points representing the two vectors
